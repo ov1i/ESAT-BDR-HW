@@ -1,12 +1,9 @@
+#pragma once
 /* Copy constructor */
 //CPunctText.h
 #include <cmath>
 constexpr int dim_sir = 21;//+1 for \0
 class CPunctText {
-    int x;
-    int y;
-    // int lungime_sir;//redundant
-    char *sNume;
 public:
     //explicit empty constructor
     CPunctText( );
@@ -78,6 +75,11 @@ public:
 
         return P3;
     }
+private:
+    int x;
+    int y;
+    // int lungime_sir;//redundant
+    char *sNume;
 };//class
 
 CPunctText::CPunctText() {

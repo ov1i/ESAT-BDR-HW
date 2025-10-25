@@ -1,4 +1,4 @@
-/* 
+/* Ex1_1
 Modify example 3 in order to allow the addition of two CPunctText points. The name of the
 new point will be created from the names of the compounding points by concatenation. Add
 a method that returns the distance from a point to origin. Modify the class so that you
