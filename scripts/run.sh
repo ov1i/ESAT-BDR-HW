@@ -72,6 +72,7 @@ menuWrapper() {
         else
             cmake . -D$2=1 -D$3=1 -B.build -GNinja -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_BUILD_TYPE=debug
             ninja -j4 -C .build
+            rm ./.build/CMakeCache.txt 
         fi
 
         gracefull_exit 1
