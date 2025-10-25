@@ -22,8 +22,8 @@ endif()
 
 if(Ex3_1)
     set(Lab2_Ex3_1_src
-        ${CMAKE_CURRENT_SOURCE_DIR}/Ex1_1/main.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Ex3_1/main.cpp
     )
 
-    add_executable(Lab2_Ex2_1 ${Lab1_Ex3_src})
+    add_executable(Lab2_Ex3_1 ${Lab2_Ex3_1_src})
 endif()
