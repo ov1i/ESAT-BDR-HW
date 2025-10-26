@@ -35,3 +35,11 @@ if(Ex4_1)
 
     add_executable(Lab2_Ex4_1 ${Lab2_Ex4_1_src})
 endif()
+
+if(Ex5_1)
+    set(Lab2_Ex5_1_src
+        ${CMAKE_CURRENT_SOURCE_DIR}/Ex5_1/main.cpp
+    )
+
+    add_executable(Lab2_Ex5_1 ${Lab2_Ex5_1_src})
+endif()
