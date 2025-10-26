@@ -21,6 +21,13 @@ elseif(Ex2_1)
     )
 
     add_executable(Lab2_Ex2_1 ${Lab2_Ex2_1_src})
+elseif(Ex2_2)
+    message(STATUS "Prerequisite set for Ex2_2")
+    set(Lab2_Ex2_2_src
+        ${CMAKE_CURRENT_SOURCE_DIR}/Ex2_2/main.cpp
+    )
+
+    add_executable(Lab2_Ex2_2 ${Lab2_Ex2_2_src})
 elseif(Ex3_1)
     message(STATUS "Prerequisite set for Ex3_1")
     set(Lab2_Ex3_1_src
