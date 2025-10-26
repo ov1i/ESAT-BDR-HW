@@ -1,6 +1,16 @@
 # Prerequisites
 *.d
 
+# Env
+.venv
+
+# Build Artifacts
+.build
+build
+.vscode
+logs
+*.log
+
 # Compiled Object files
 *.slo
 *.lo
